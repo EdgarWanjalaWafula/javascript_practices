@@ -1,0 +1,61 @@
+/* Stylesheet css for fourthirty limited. 
+Coded by Edgar Wanjala Wafula */
+
+body {
+	height: 100vh;
+	display: flex;
+    align-items: center;
+    transition-duration: 700ms; 
+}
+ 
+/* ----------------------------------------- 
+--> General Styles -----------------------*/
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+i, .social ul li{
+    cursor: pointer;
+}
+
+.list-categories{
+    display:none; 
+}
+
+/* --------------------------------------------- 
+--> Footer -----------------------------------*/
+footer {
+	padding: 50px 0px;
+	border-top: 1px solid #e7e7e7;
+}
+
+footer .social li {
+    flex-grow: 1; 
+    text-align: center; 
+}
+
+footer .social li:hover i{
+    animation: toBottomFromTop 0.3s forwards;
+}
+
+.social li i{
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px; 
+}
+
+/* Body  */
+.card {
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,.39);
+}
+
+.card input, .card select{
+    border: 0px; 
+    border-bottom: 1px solid #ccc; 
+    background-color: transparent; 
+}
+
+.card h4{
+    color:#5a6268; 
+}
